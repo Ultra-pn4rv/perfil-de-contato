@@ -16,7 +16,7 @@
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/bg-mobile.png);
+    --bg-url: url(./assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
@@ -81,6 +81,14 @@ body * {
     z-index: 1;
     transform: translateY(-50%);
     animation: slide-back 0.2s;
+}
+
+.light #switch button {
+    animation: slide-in 0.2s forwards;
+}
+
+#switch button:hover {
+    outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
