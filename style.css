@@ -35,8 +35,9 @@ body * {
 
 #container {
   width: 100vw;
-  max-width: 588px;
-  margin: 56px auto 0px;
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
   padding: 0 24px;
 }
 
@@ -188,7 +189,7 @@ footer a:hover {
 /* Media Queries */
 @media(min-width:768px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.png);
+    /* --bg-url: url(./assets/bg-desktop.png); */
 
     ul li a ion-icon {
       width: 25px;
@@ -197,7 +198,7 @@ footer a:hover {
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    /* --bg-url: url(./assets/bg-desktop-light.jpg); */
   }
 }
 
