@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: linear-gradient(43deg, #270135fb, #0B101E, #270135fb, #0B101E);
+  --bg-url: url(./assets/blueanime.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: linear-gradient(43deg, #CDC9F1, #FDFDFD, #FFFFFF, #9D93D6);
+  --bg-url: url(./assets/yellowanime.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
