@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url);
+  background-size: cover;
 }
 
 body * {
